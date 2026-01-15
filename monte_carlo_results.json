@@ -1,0 +1,502 @@
+{
+  "simulation_config": {
+    "n_simulations": 1000,
+    "n_days": 30,
+    "n_stocks": 25,
+    "elapsed_time": 0.3578226566314697
+  },
+  "summary_statistics": {
+    "avg_accumulation": {
+      "mean": 0.9962852664623544,
+      "std": 0.12750088699729362,
+      "min": 0.5826569461334214,
+      "max": 1.8582142101807642
+    },
+    "total_returns_pct": {
+      "mean": -0.7524762597535822,
+      "std": 22.56437386213382,
+      "percentile_5": -33.66010986900778,
+      "percentile_50": -2.888361491176333,
+      "percentile_95": 38.730282338034314,
+      "min": -71.11968145662651,
+      "max": 148.60580132012365
+    }
+  },
+  "per_stock_statistics": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc",
+      "sector": "Technology",
+      "initial_price": 175.5,
+      "avg_return_pct": -1.021381843355359,
+      "std_return_pct": 24.23534176454958,
+      "avg_accumulation": 0.9946516717791131,
+      "avg_max_drawdown_pct": -22.573809813005475,
+      "return_distribution": {
+        "percentile_1": -44.67604106570962,
+        "percentile_5": -35.531174986591374,
+        "percentile_25": -18.250558123273734,
+        "percentile_50": -3.1897324723982434,
+        "percentile_75": 11.687266707462147,
+        "percentile_95": 42.829391155110336,
+        "percentile_99": 72.30369542792072
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corp",
+      "sector": "Technology",
+      "initial_price": 380.2,
+      "avg_return_pct": 0.24671140276025344,
+      "std_return_pct": 24.83389880814114,
+      "avg_accumulation": 1.0022444641044834,
+      "avg_max_drawdown_pct": -22.832073474743932,
+      "return_distribution": {
+        "percentile_1": -48.240311505932986,
+        "percentile_5": -36.19054532887676,
+        "percentile_25": -17.23398370893173,
+        "percentile_50": -1.8741880367713348,
+        "percentile_75": 15.510642040212991,
+        "percentile_95": 43.894976428455934,
+        "percentile_99": 73.67820868903134
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc",
+      "sector": "Technology",
+      "initial_price": 140.8,
+      "avg_return_pct": -1.299165056784983,
+      "std_return_pct": 26.219381742901827,
+      "avg_accumulation": 0.9941451341601071,
+      "avg_max_drawdown_pct": -24.659887431554623,
+      "return_distribution": {
+        "percentile_1": -48.66614104743019,
+        "percentile_5": -37.42226146073395,
+        "percentile_25": -20.26289425056627,
+        "percentile_50": -4.960523853684595,
+        "percentile_75": 14.25043463358806,
+        "percentile_95": 45.27308331311511,
+        "percentile_99": 75.75579307016727
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "sector": "Technology",
+      "initial_price": 495.3,
+      "avg_return_pct": -0.6223537096779396,
+      "std_return_pct": 31.501603721110197,
+      "avg_accumulation": 0.9994625814374555,
+      "avg_max_drawdown_pct": -28.21467650312941,
+      "return_distribution": {
+        "percentile_1": -54.05824630364442,
+        "percentile_5": -42.65377420428966,
+        "percentile_25": -23.642596226607647,
+        "percentile_50": -4.163564003858011,
+        "percentile_75": 15.772606233694631,
+        "percentile_95": 57.14785233314089,
+        "percentile_99": 99.70584727745482
+      }
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "sector": "Technology",
+      "initial_price": 325.6,
+      "avg_return_pct": -1.1671504596398217,
+      "std_return_pct": 25.476988508581943,
+      "avg_accumulation": 0.9939284501422412,
+      "avg_max_drawdown_pct": -24.063172633554927,
+      "return_distribution": {
+        "percentile_1": -49.636846326658784,
+        "percentile_5": -36.118781252788835,
+        "percentile_25": -20.02919364143859,
+        "percentile_50": -3.654354131420978,
+        "percentile_75": 13.895085565340072,
+        "percentile_95": 45.51026963336475,
+        "percentile_99": 67.71018767006102
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "sector": "Healthcare",
+      "initial_price": 157.8,
+      "avg_return_pct": -0.051589416123475985,
+      "std_return_pct": 16.53476352789619,
+      "avg_accumulation": 1.0006583560907227,
+      "avg_max_drawdown_pct": -15.951461867863003,
+      "return_distribution": {
+        "percentile_1": -32.34063735215519,
+        "percentile_5": -24.576870617689508,
+        "percentile_25": -12.00372201822506,
+        "percentile_50": -1.735213526958057,
+        "percentile_75": 11.171489180265493,
+        "percentile_95": 27.425267604418366,
+        "percentile_99": 41.94636995135728
+      }
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group",
+      "sector": "Healthcare",
+      "initial_price": 490.25,
+      "avg_return_pct": -0.8168008753202521,
+      "std_return_pct": 18.099492995736995,
+      "avg_accumulation": 0.9964507135911278,
+      "avg_max_drawdown_pct": -18.088332841771734,
+      "return_distribution": {
+        "percentile_1": -36.46895341243358,
+        "percentile_5": -28.37028722087879,
+        "percentile_25": -14.084396740257372,
+        "percentile_50": -1.3208652523093334,
+        "percentile_75": 11.143584033687521,
+        "percentile_95": 30.21692081312856,
+        "percentile_99": 44.468952279866194
+      }
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer Inc",
+      "sector": "Healthcare",
+      "initial_price": 28.45,
+      "avg_return_pct": -0.6836527895717954,
+      "std_return_pct": 16.9376974295294,
+      "avg_accumulation": 0.995593565331299,
+      "avg_max_drawdown_pct": -16.97126039155029,
+      "return_distribution": {
+        "percentile_1": -35.75630582739509,
+        "percentile_5": -26.025075004368336,
+        "percentile_25": -12.600820220951919,
+        "percentile_50": -2.0191635651544138,
+        "percentile_75": 10.302459825049798,
+        "percentile_95": 29.297653704761537,
+        "percentile_99": 40.41642262402442
+      }
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "sector": "Financials",
+      "initial_price": 155.3,
+      "avg_return_pct": -2.215087416572716,
+      "std_return_pct": 23.144916348966095,
+      "avg_accumulation": 0.989031114341828,
+      "avg_max_drawdown_pct": -22.51469746626442,
+      "return_distribution": {
+        "percentile_1": -44.04165625075646,
+        "percentile_5": -34.05071871790898,
+        "percentile_25": -18.740646059834855,
+        "percentile_50": -5.43862143943627,
+        "percentile_75": 10.082173383461761,
+        "percentile_95": 39.98565394060171,
+        "percentile_99": 64.88212753608873
+      }
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "sector": "Financials",
+      "initial_price": 33.75,
+      "avg_return_pct": -1.0034730306213782,
+      "std_return_pct": 22.592259802937686,
+      "avg_accumulation": 0.9947676503027915,
+      "avg_max_drawdown_pct": -21.855538839629528,
+      "return_distribution": {
+        "percentile_1": -45.038149110519974,
+        "percentile_5": -33.33581490636342,
+        "percentile_25": -16.79056002161866,
+        "percentile_50": -4.118542447234108,
+        "percentile_75": 13.460017969345984,
+        "percentile_95": 38.17046244878995,
+        "percentile_99": 62.92285260899604
+      }
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "sector": "Financials",
+      "initial_price": 48.9,
+      "avg_return_pct": -0.41680742926930403,
+      "std_return_pct": 23.58300501456401,
+      "avg_accumulation": 0.9970702250474167,
+      "avg_max_drawdown_pct": -21.797131038149676,
+      "return_distribution": {
+        "percentile_1": -46.406486033243986,
+        "percentile_5": -34.196547571721915,
+        "percentile_25": -16.805062321635,
+        "percentile_50": -2.456433869834446,
+        "percentile_75": 13.556092419736022,
+        "percentile_95": 40.30423804506905,
+        "percentile_99": 63.206777898695634
+      }
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "sector": "Energy",
+      "initial_price": 102.45,
+      "avg_return_pct": -0.031335341366709686,
+      "std_return_pct": 28.496192744078268,
+      "avg_accumulation": 1.0015706633443249,
+      "avg_max_drawdown_pct": -25.792288418434698,
+      "return_distribution": {
+        "percentile_1": -49.32934490217758,
+        "percentile_5": -39.41435801736498,
+        "percentile_25": -20.505082255253484,
+        "percentile_50": -4.781289692430329,
+        "percentile_75": 16.541383112722265,
+        "percentile_95": 51.7886548100319,
+        "percentile_99": 83.11565819240144
+      }
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corp",
+      "sector": "Energy",
+      "initial_price": 145.8,
+      "avg_return_pct": -1.1122455733037262,
+      "std_return_pct": 29.651419804683073,
+      "avg_accumulation": 0.9953815651051384,
+      "avg_max_drawdown_pct": -26.654958848371187,
+      "return_distribution": {
+        "percentile_1": -50.93960789491916,
+        "percentile_5": -41.98109952711587,
+        "percentile_25": -22.152882999599814,
+        "percentile_50": -5.378455418408562,
+        "percentile_75": 15.175678063051073,
+        "percentile_95": 54.50317157150726,
+        "percentile_99": 84.1496971343187
+      }
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
+      "initial_price": 108.6,
+      "avg_return_pct": -1.704832610402884,
+      "std_return_pct": 28.523905654540467,
+      "avg_accumulation": 0.9931122217250921,
+      "avg_max_drawdown_pct": -26.49445305433392,
+      "return_distribution": {
+        "percentile_1": -50.3643070024691,
+        "percentile_5": -41.74222735435271,
+        "percentile_25": -21.717756331319244,
+        "percentile_50": -5.4336644514350825,
+        "percentile_75": 14.265786664308127,
+        "percentile_95": 49.670202249310606,
+        "percentile_99": 79.3262034012625
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com",
+      "sector": "Consumer",
+      "initial_price": 150.25,
+      "avg_return_pct": -1.163785770422145,
+      "std_return_pct": 22.34776920066139,
+      "avg_accumulation": 0.9932107037335449,
+      "avg_max_drawdown_pct": -21.148908394390137,
+      "return_distribution": {
+        "percentile_1": -42.77556193864417,
+        "percentile_5": -34.483789329612314,
+        "percentile_25": -16.62344509603258,
+        "percentile_50": -3.8870855750722297,
+        "percentile_75": 12.188493344668617,
+        "percentile_95": 39.471880000377105,
+        "percentile_99": 56.3518632009634
+      }
+    },
+    {
+      "ticker": "HD",
+      "name": "Home Depot",
+      "sector": "Consumer",
+      "initial_price": 315.4,
+      "avg_return_pct": -0.3432145023985018,
+      "std_return_pct": 18.134199138150635,
+      "avg_accumulation": 0.9982597663799773,
+      "avg_max_drawdown_pct": -17.553065083038558,
+      "return_distribution": {
+        "percentile_1": -35.85473373732076,
+        "percentile_5": -27.493851619238765,
+        "percentile_25": -13.328578708659396,
+        "percentile_50": -1.8052209785944962,
+        "percentile_75": 11.057480981731127,
+        "percentile_95": 31.709187403512637,
+        "percentile_99": 47.17449133369535
+      }
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald's Corp",
+      "sector": "Consumer",
+      "initial_price": 285.75,
+      "avg_return_pct": -1.0342107496075854,
+      "std_return_pct": 17.803191247364403,
+      "avg_accumulation": 0.9954657110107336,
+      "avg_max_drawdown_pct": -17.665139862964196,
+      "return_distribution": {
+        "percentile_1": -36.32036605799613,
+        "percentile_5": -27.39919928825392,
+        "percentile_25": -14.136835350314836,
+        "percentile_50": -2.8540630826600855,
+        "percentile_75": 10.160514782707763,
+        "percentile_95": 29.848288883531918,
+        "percentile_99": 44.8526636726223
+      }
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc",
+      "sector": "Industrials",
+      "initial_price": 245.6,
+      "avg_return_pct": -0.5339908926877777,
+      "std_return_pct": 21.50343253175556,
+      "avg_accumulation": 0.9960668434431709,
+      "avg_max_drawdown_pct": -20.332844026848377,
+      "return_distribution": {
+        "percentile_1": -42.926257689677485,
+        "percentile_5": -32.45328747986113,
+        "percentile_25": -15.814271326715247,
+        "percentile_50": -2.7144277029012622,
+        "percentile_75": 12.982618753941694,
+        "percentile_95": 37.46526323156242,
+        "percentile_99": 51.538746137601386
+      }
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing Co",
+      "sector": "Industrials",
+      "initial_price": 175.9,
+      "avg_return_pct": -1.192650312634994,
+      "std_return_pct": 22.86986219806058,
+      "avg_accumulation": 0.9930268276961287,
+      "avg_max_drawdown_pct": -21.70986260231337,
+      "return_distribution": {
+        "percentile_1": -44.67818404896469,
+        "percentile_5": -35.176492839654024,
+        "percentile_25": -17.295462672132963,
+        "percentile_50": -2.840925137255584,
+        "percentile_75": 11.873034494198926,
+        "percentile_95": 41.4710891996664,
+        "percentile_99": 60.3587411401597
+      }
+    },
+    {
+      "ticker": "GE",
+      "name": "General Electric",
+      "sector": "Industrials",
+      "initial_price": 95.3,
+      "avg_return_pct": 0.03431358757735268,
+      "std_return_pct": 21.8701027064943,
+      "avg_accumulation": 0.9982822100763719,
+      "avg_max_drawdown_pct": -20.024937084837177,
+      "return_distribution": {
+        "percentile_1": -40.096265492266674,
+        "percentile_5": -32.000884921290705,
+        "percentile_25": -15.767537101062366,
+        "percentile_50": -1.8154897343555965,
+        "percentile_75": 12.546286399315193,
+        "percentile_95": 37.058156248304606,
+        "percentile_99": 60.86825724011583
+      }
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "initial_price": 38.5,
+      "avg_return_pct": -0.5682030279186833,
+      "std_return_pct": 21.706978771743465,
+      "avg_accumulation": 0.9992786644089081,
+      "avg_max_drawdown_pct": -20.145256248516066,
+      "return_distribution": {
+        "percentile_1": -41.007384612881644,
+        "percentile_5": -32.611430349191785,
+        "percentile_25": -15.468298886811434,
+        "percentile_50": -2.519487764478362,
+        "percentile_75": 12.998974984810308,
+        "percentile_95": 36.82787247667519,
+        "percentile_99": 61.61710995702705
+      }
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont Corp",
+      "sector": "Materials",
+      "initial_price": 42.75,
+      "avg_return_pct": -1.022065103942429,
+      "std_return_pct": 22.24233389674199,
+      "avg_accumulation": 0.9937815125171042,
+      "avg_max_drawdown_pct": -20.755832798834223,
+      "return_distribution": {
+        "percentile_1": -40.63385164571474,
+        "percentile_5": -32.859761285976504,
+        "percentile_25": -16.096416547664923,
+        "percentile_50": -3.5956439652365946,
+        "percentile_75": 11.223992662251225,
+        "percentile_95": 39.0195320186572,
+        "percentile_99": 66.14417862134034
+      }
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "sector": "Utilities",
+      "initial_price": 85.2,
+      "avg_return_pct": -0.5291156487263868,
+      "std_return_pct": 13.829131247050826,
+      "avg_accumulation": 0.9975403213924021,
+      "avg_max_drawdown_pct": -13.460466749649942,
+      "return_distribution": {
+        "percentile_1": -26.54338452165469,
+        "percentile_5": -20.780931776283662,
+        "percentile_25": -10.372959165641511,
+        "percentile_50": -1.6208854534200678,
+        "percentile_75": 7.586887309244606,
+        "percentile_95": 23.90653447532153,
+        "percentile_99": 36.56547693707251
+      }
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "sector": "Utilities",
+      "initial_price": 90.4,
+      "avg_return_pct": -0.3246983676163969,
+      "std_return_pct": 14.033838952617408,
+      "avg_accumulation": 0.9957967350900454,
+      "avg_max_drawdown_pct": -13.83938325052789,
+      "return_distribution": {
+        "percentile_1": -29.521761111423608,
+        "percentile_5": -21.570657883510776,
+        "percentile_25": -10.03357017173616,
+        "percentile_50": -1.0521870424137325,
+        "percentile_75": 8.706045694079974,
+        "percentile_95": 24.301948770664072,
+        "percentile_99": 36.48063195308884
+      }
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company",
+      "sector": "Utilities",
+      "initial_price": 78.65,
+      "avg_return_pct": -0.23512155621192063,
+      "std_return_pct": 15.164273469057035,
+      "avg_accumulation": 0.9983539893073294,
+      "avg_max_drawdown_pct": -14.48945419815209,
+      "return_distribution": {
+        "percentile_1": -30.86289349290025,
+        "percentile_5": -22.59540836385839,
+        "percentile_25": -10.813309560909138,
+        "percentile_50": -1.790721091083175,
+        "percentile_75": 8.734903654691884,
+        "percentile_95": 27.167871995908033,
+        "percentile_99": 41.078089731631174
+      }
+    }
+  ]
+}
