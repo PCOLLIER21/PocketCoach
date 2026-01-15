@@ -3,7 +3,7 @@
     "n_simulations": 1000,
     "n_days": 30,
     "n_stocks": 25,
-    "elapsed_time": 0.3578226566314697
+    "elapsed_time": 0.3762834072113037
   },
   "summary_statistics": {
     "avg_accumulation": {
